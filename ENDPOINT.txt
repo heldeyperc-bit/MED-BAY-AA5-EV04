@@ -1,0 +1,79 @@
+﻿ENDPOINTS API MED-BAY
+Evidencia: GA7-220501096-AA5-EV04
+API del proyecto
+
+URL BASE:
+http://localhost:3000
+
+==================================================
+1. AUTENTICACION
+==================================================
+
+POST /api/registro
+Descripcion: Registra un nuevo usuario.
+
+POST /api/login
+Descripcion: Permite autenticar un usuario registrado.
+
+==================================================
+2. PACIENTES
+==================================================
+
+GET /api/pacientes
+Descripcion: Lista todos los pacientes.
+
+GET /api/pacientes/:id
+Descripcion: Consulta un paciente por su identificador.
+
+POST /api/pacientes
+Descripcion: Registra un nuevo paciente.
+
+PUT /api/pacientes/:id
+Descripcion: Actualiza los datos de un paciente.
+
+DELETE /api/pacientes/:id
+Descripcion: Elimina un paciente.
+
+==================================================
+3. MEDICOS
+==================================================
+
+GET /api/medicos
+Descripcion: Lista todos los medicos.
+
+GET /api/medicos/:id
+Descripcion: Consulta un medico por su identificador.
+
+POST /api/medicos
+Descripcion: Registra un nuevo medico.
+
+PUT /api/medicos/:id
+Descripcion: Actualiza los datos de un medico.
+
+DELETE /api/medicos/:id
+Descripcion: Elimina un medico.
+
+==================================================
+4. CITAS
+==================================================
+
+GET /api/citas
+Descripcion: Lista todas las citas.
+
+GET /api/citas/:id
+Descripcion: Consulta una cita por su identificador.
+
+POST /api/citas
+Descripcion: Registra una nueva cita.
+
+PUT /api/citas/:id
+Descripcion: Actualiza una cita existente.
+
+DELETE /api/citas/:id
+Descripcion: Elimina una cita.
+
+==================================================
+TOTAL
+==================================================
+
+17 endpoints REST documentados.
