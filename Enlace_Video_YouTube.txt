@@ -1,0 +1,7 @@
+﻿Enlace del video - GA7-220501096-AA5-EV04
+
+Evidencia: API del proyecto
+Proyecto: MED-BAY
+
+Video de testing de la API con Postman:
+https://youtu.be/V5L3Vy_zOmw
